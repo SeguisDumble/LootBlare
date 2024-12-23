@@ -31,6 +31,9 @@ Every time the master looter changes, the new master looter announces the roll t
 - **Auto-Close**: The frame closes automatically after the set time. Toggle this feature on or off with:  
   `/lootblare autoClose on/off` or `/lb autoClose on/off`
 
+- **Hide-When-Using-a-Spell**: Hide the frame if the time is over and the player uses an spell. This is useful mainly for the ML if the forgets to close the frame and needs to start fighting.
+  `/lootblare hideWhenUsingSpell on/off` or `/lb hideWhenUsingSpell on/off`
+
 - **Configuration Commands**: For a full list of configuration options, type:  
   `/help`
 
@@ -42,6 +45,7 @@ Every time the master looter changes, the new master looter announces the roll t
 
 Changelog:
 
+- **1.1.10**: Add option to hide when using a spell after the time is over
 - **1.1.9**: Add communication using CHAT_MSG_ADDON events
 - **1.1.8**: Remove announce message after each roll. Added time announce message after changing master loot
 - **1.1.7**: Added class colors, autoClose option, and config commands. Only show frame if the sender is the ML. Ignore rolls after the time has elapsed. Get FrameShowDuration from the ML.
